@@ -121,7 +121,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 var images = ["0.jpg", "1.jpg", "2.jpg"];
 var chosenImage = images[Math.floor(Math.random() * images.length)];
 var bgImage = document.createElement("img");
-bgImage.src = "./src/img/".concat(chosenImage);
+bgImage.src = "src/img/".concat(chosenImage);
 document.body.appendChild(bgImage);
 },{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
