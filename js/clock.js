@@ -1,4 +1,4 @@
-import "../styles.css";
+import "MomentumClone/styles.css";
 
 const clock = document.querySelector("#clock");
 
