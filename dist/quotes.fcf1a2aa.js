@@ -120,34 +120,34 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 })({"src/js/quotes.js":[function(require,module,exports) {
 var quotes = [{
   quote: "The way to get started is to quit talking and begin doing.",
-  author: "Walt Disney"
+  author: "- Walt Disney"
 }, {
   quote: "Life is what happens when you're busy making other plans.",
-  author: "John Lennon"
+  author: "- John Lennon"
 }, {
   quote: "The world is a book and those who do not travel read only one page.",
-  author: "Saint Augustine"
+  author: "- Saint Augustine"
 }, {
   quote: "Life is either a daring adventure or nothing at all.",
-  author: "Helen Keller"
+  author: "- Helen Keller"
 }, {
-  quote: "To Travel is to Live",
-  author: "Hans Christian Andersen"
+  quote: "To Travel is to Live.",
+  author: "- Hans Christian Andersen"
 }, {
   quote: "Only a life lived for others is a life worthwhile.",
-  author: "Albert Einstein"
+  author: "- Albert Einstein"
 }, {
   quote: "You only live once, but if you do it right, once is enough.",
-  author: "Mae West"
+  author: "- Mae West"
 }, {
-  quote: "Never go on trips with anyone you do ntot love.",
-  author: "Hemmingway"
+  quote: "Never go on trips with anyone you do not love.",
+  author: "- Hemmingway"
 }, {
   quote: "We wander for distraction, but we travel for fulfilment.",
-  author: "Hilaire Belloc"
+  author: "- Hilaire Belloc"
 }, {
   quote: "Travel expands the mind and fills the gap.",
-  author: "Sheda Savage"
+  author: "- Sheda Savage"
 }];
 var quote = document.querySelector("#quote span:first-child");
 var author = document.querySelector("#quote span:last-child");
@@ -182,7 +182,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53266" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60348" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
