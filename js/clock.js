@@ -1,5 +1,3 @@
-import "MomentumClone/styles.css";
-
 const clock = document.querySelector("#clock");
 
 function getClock(){
